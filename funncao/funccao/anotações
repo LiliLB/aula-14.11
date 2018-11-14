@@ -1,0 +1,54 @@
+let paragrafo = document.querySelector('p')
+undefined
+let elementoCriado = document.createElement('p')
+undefined
+elementoCriado.innerHTML = 'esse foi um paragrafo inventado'
+"esse foi um paragrafo inventado"
+document.querySelector('div').appendChild(elementoCriado)
+<p>​esse foi um paragrafo inventado​</p>​ 
+
+
+let paragrafo = document.querySelector('p')
+undefined
+paragrafo.style.color = 'green'
+"green"
+paragrafo.style.color = ''
+""
+paragrafo.style.margin = 'auto'
+"auto"
+paragrafo.style.width = 'fit-content'
+"fit-content"
+paragrafo.style.width = ''
+""
+
+
+let paragrafo = document.querySelector('p')
+undefined
+paragrafo.classList.add('classe-1')
+undefined
+paragrafo.classList.add('classe-2')
+undefined
+paragrafo.classList.add('classe-3')
+undefined
+paragrafo.classList.contains('classe-3')
+true
+paragrafo.classList.remove('classe-3')
+undefined
+paragrafo.classList.add('classe-3')
+undefined
+paragrafo.classList.add('classe-3')
+undefined
+paragrafo.classList
+DOMTokenList(3) ["classe-1", "classe-2", "classe-3", value: "classe-1 classe-2 classe-3"]
+0: "classe-1"
+1: "classe-2"
+2: "classe-3"
+length: 3
+value: "classe-1 classe-2 classe-3"
+__proto__: DOMTokenList
+
+
+
+
+
+=> substitui a function js
